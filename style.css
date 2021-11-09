@@ -1,0 +1,18 @@
+html * {
+    box-sizing: border-box;
+}
+main {
+    display: flex;
+    flex-flow: column nowrap;
+    width: 80%;
+    max-width: 400px;
+    margin: 0 auto;
+}
+main input {
+    margin-bottom: 1em;
+    height: 2em;
+}
+main button {
+    padding: 1em;
+    margin: 1em 1em;
+}
