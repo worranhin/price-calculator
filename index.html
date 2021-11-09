@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=divice-width, initial-scale=1.0">
     <title>价格计算器</title>
     <link rel="stylesheet" href="style.css"> 
     <script src="main.js" async></script>
@@ -14,19 +15,19 @@
     </header>
     <main>
         <label for="cost">成本</label>
-        <input type="number" id="cost">
+        <input type="number" id="cost" value="1">
         <label for="exchange">汇率</label>
-        <input type="number" id="exchange">
+        <input type="number" id="exchange" value="1">
         <label for="platform">平台佣金</label>
-        <input type="number" id="platform">
+        <input type="number" id="platform" value="0">
         <label for="advert">推广费用占比</label>
-        <input type="number" id="advert">
+        <input type="number" id="advert" value="0">
         <label for="discount">折扣率</label>
-        <input type="number" id="discount">
+        <input type="number" id="discount" value="0">
         <label for="return-rate">退货率</label>
-        <input type="number" id="return-rate">
+        <input type="number" id="return-rate" value="0">
         <label for="profit">利润率</label>
-        <input type="number" id="profit">
+        <input type="number" id="profit" value="0">
         <button id="btn-cal">点此计算</button>
         <label for="price">价格</label>
         <input id="price">
